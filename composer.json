@@ -1,0 +1,30 @@
+{
+    "name": "ppi/twig-module",
+    "description": "Twig template engine module for PPI2",
+    "keywords": ["ppi", "twig", "templating", "view"],
+    "homepage": "https://github.com/ppi/ppi-twig-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Dragoonis",
+            "email": "paul@ppi.io"
+        },
+        {
+            "name": "Vítor Brandão",
+            "email": "vitor@noiselabs.org"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/ppi",
+        "issues": "https://github.com/ppi/ppi-twig-module/issues"
+    },
+    "require": {
+        "ppi/framework": "dev-2.1-noiselabs",
+        "twig/twig": ">=1.8,<2.0-dev"
+    },
+    "autoload": {
+        "psr-0": { "PPI\\TwigModule": "" }
+    },
+    "target-dir": "PPI/TwigModule",
+    "minimum-stability": "dev"
+}
