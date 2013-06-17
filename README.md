@@ -9,6 +9,17 @@ Twig template engine module for PPI2.
 
 [![Build Status](https://secure.travis-ci.org/ppi/ppi-twig-module.png)](http://travis-ci.org/ppi/ppi-twig-module)
 
+Twig
+----
+
+<img src="http://twig.sensiolabs.org/images/twig-logo.png" height="128" style="display:inline;"/>
+
+> Twig is a template language for PHP, released under the new BSD license (code
+and documentation).
+
+> Twig uses a syntax similar to the Django and Jinja template languages which
+inspired the Twig runtime environment.
+
 Requirements
 ------------
 
