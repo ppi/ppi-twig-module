@@ -12,13 +12,11 @@ Twig template engine module for PPI2.
 Twig
 ----
 
-<img src="http://twig.sensiolabs.org/images/twig-logo.png" height="128" style="display:inline;"/>
+<img src="http://twig.sensiolabs.org/images/twig-logo.png" height="100" />
 
-> Twig is a template language for PHP, released under the new BSD license (code
-and documentation).
+> Twig is a template language for PHP, released under the new BSD license.
 
-> Twig uses a syntax similar to the Django and Jinja template languages which
-inspired the Twig runtime environment.
+> Twig uses a syntax similar to the Django and Jinja template languages which inspired the Twig runtime environment.
 
 Requirements
 ------------
@@ -29,7 +27,7 @@ Requirements
 Installation (Composer)
 -----------------------
 
-### 0. Install Composer
+### 1. Install Composer
 
 If you don't have Composer yet, download it following the instructions on
 http://getcomposer.org/ or just run the following command:
@@ -38,25 +36,15 @@ http://getcomposer.org/ or just run the following command:
 curl -s http://getcomposer.org/installer | php
 ```
 
-### 1. Add this package to your composer.json
-
-```js
-{
-    "require": {
-        "ppi/twig-module": "dev-master"
-    }
-}
-```
-
-Now tell composer to download the module by running the command:
+### 2. Add ppi/twig-module to your composer.json and install it
 
 ``` bash
-$ php composer.phar update ppi/twig-module
+$ php composer.phar require ppi/twig-module dev-master
 ```
 
 Composer will install the module to your project's `vendor/ppi` directory.
 
-### 2. Enable the module
+### 3. Enable the module
 
 Enable this module by editing `app/config/modules.yml`:
 
@@ -83,3 +71,10 @@ Submitting bugs and feature requests
 ------------------------------------
 
 Bugs and feature requests are tracked on [GitHub](https://github.com/ppi/ppi-twig-module/issues).
+
+About PPI
+---------
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Ppi-framework-logo.png" width="74" height="50" />
+
+> PPI is an open source PHP meta-framework. It has taken the good bits from Symfony2, ZendFramework2 & Doctrine2 and combined them together to create a solid and very easy web application framework. It can be considered the boilerplate of PHP frameworks.
