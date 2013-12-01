@@ -5,7 +5,7 @@ PPI Twig Module
 [@ppi]:     http://ppi.io/              "PPI Framework - The PHP Meta Framework!"
 [@twig]:    http://twig.sensiolabs.org/ "The flexible, fast, and secure template engine for PHP"
 
-Twig template engine module for PPI2.
+[Twig][@twig] template engine module for [PPI2][@ppi].
 
 [![Build Status](https://secure.travis-ci.org/ppi/ppi-twig-module.png)](http://travis-ci.org/ppi/ppi-twig-module)
 
@@ -24,8 +24,8 @@ Requirements
 * [PHP][@php] 5.3.3 and up
 * [PPI Framework 2][@ppi] (2.1.x)
 
-Installation (Composer)
------------------------
+Installation
+------------
 
 ### 1. Install Composer
 
