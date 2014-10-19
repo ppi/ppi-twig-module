@@ -19,7 +19,7 @@
         "issues": "https://github.com/ppi/ppi-twig-module/issues"
     },
     "require": {
-        "ppi/framework": "dev-2.1-noiselabs",
+        "ppi/framework": "2.1.*-dev",
         "twig/twig": ">=1.8,<2.0-dev"
     },
     "autoload": {
