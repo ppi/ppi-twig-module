@@ -20,7 +20,7 @@
     },
     "require": {
         "ppi/framework": "dev-develop",
-        "twig/twig": ">=1.8,<2.0-dev"
+        "twig/twig": "1.18.1"
     },
     "autoload": {
         "psr-0": { "PPI\\TwigModule": "" }
