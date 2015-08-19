@@ -19,8 +19,8 @@
         "issues": "https://github.com/ppi/ppi-twig-module/issues"
     },
     "require": {
-        "ppi/framework": "2.1.*-dev",
-        "twig/twig": ">=1.8,<2.0-dev"
+        "twig/twig": ">=1.8,<2.0-dev",
+        "ppi/framework": "~2.1.0-alpha2"
     },
     "autoload": {
         "psr-0": { "PPI\\TwigModule": "" }
